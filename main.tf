@@ -8,5 +8,4 @@ resource "aws_instance" "web" {
     tags = {
         Name = var.instance_name
     }
-    security_groups = "sg-0cbcf7c8e26aff036"
 }
